@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Week 4 — CSS Layouts & Responsive Design</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <h1 class="brand">WebCafe</h1>
+      <nav class="nav">
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+      </nav>
+      <button class="cta">Order</button>
+    </div>
+  </header>
+
+  <main class="page-grid">
+    <section class="hero">
+      <h2>Responsive Layout — Grid + Flexbox</h2>
+      <p>Resize the window. This area is a single-column hero that scales gracefully.</p>
+    </section>
+
+    <section class="main-content">
+      <article class="posts">
+        <div class="cards">
+          <article class="card">
+            <h3>Feature Coffee</h3>
+            <p>Detail about the featured coffee with good padding and spacing.</p>
+          </article>
+          <article class="card">
+            <h3>Study Spaces</h3>
+            <p>A cozy corner — perfect for focused work. Uses Flexbox for card layout.</p>
+          </article>
+          <article class="card">
+            <h3>Workshops</h3>
+            <p>Monthly workshops on web dev and security. Grid used for main layout.</p>
+          </article>
+        </div>
+      </article>
+
+      <aside class="sidebar">
+        <div class="widget">
+          <h4>Opening Hours</h4>
+          <p>Mon–Fri: 8am–9pm<br>Sat–Sun: 9am–6pm</p>
+        </div>
+        <div class="widget">
+          <h4>Quick Contact</h4>
+          <p>kivairusamuel9409@webcafe.test</p>
+        </div>
+      </aside>
+    </section>
+
+    <footer class="site-footer">
+      <p>&copy; 2025 WebCafe — Built by Sam Kivairu</p>
+    </footer>
+  </main>
+</body>
+</html>
